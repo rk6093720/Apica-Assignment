@@ -340,11 +340,6 @@ const Navbar = ({ handleSize }) => {
               </Box>
             </Flex>
           </DrawerBody>
-          <DrawerFooter>
-            <Button variant="outline" mr={3} onClick={onClose}>
-              Close
-            </Button>
-          </DrawerFooter>
         </DrawerContent>
       </Drawer>
     </Box>

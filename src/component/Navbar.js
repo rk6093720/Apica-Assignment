@@ -97,7 +97,7 @@ const Navbar = ({ handleSize }) => {
 
       <Drawer
         width="296px"
-        height="1024px"
+        height={{base:"1024px",sm:"1024px",md:"1024px",lg:"1024px"}}
         margin={"20px 20px"}
         placement="left"
         onClose={onClose}
